@@ -1,8 +1,8 @@
 # Security Policy
 
-## Our security stance
+## Security stance
 
-orchicyb is a **defensive** command-line tool for authorized domain and web posture assessment. It is designed to help owners and permitted assessors understand exposure — not to facilitate unauthorized access, harassment, or attacks against third parties.
+orchicyb is a **defensive** command-line tool for authorized domain and web posture assessment. It is designed to help owners and permitted assessors understand exposure - not to facilitate unauthorized access, harassment, or attacks against third parties.
 
 By using orchicyb, you agree to comply with applicable laws, contracts, and platform policies. **You are solely responsible for obtaining permission before scanning any target.**
 
@@ -27,9 +27,7 @@ If you believe you have found a **security vulnerability in the orchicyb softwar
 
 ### How to report
 
-1. Email or message the maintainer privately (replace with your contact when publishing):
-
-   **security@your-domain.example** — or open a private GitHub Security Advisory once the repository exists.
+1. Message the maintainer privately or open a private GitHub Security Advisory once the repository exists.
 
 2. Include as much detail as possible:
 
@@ -41,7 +39,7 @@ If you believe you have found a **security vulnerability in the orchicyb softwar
 
 3. Allow reasonable time for triage and remediation before public disclosure.
 
-### What we consider in scope
+### What I consider in scope
 
 Examples of in-scope reports for **this project**:
 
