@@ -6,7 +6,7 @@
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![CLI](https://img.shields.io/badge/interface-terminal-green.svg)](#usage)
 
-orchicyb helps security-aware teams and individuals **baseline digital exposure** for domains they own or are authorized to assess. It combines HTTP security headers, TLS certificate health, DNS visibility, and email authentication (SPF / DMARC / DKIM) into a single workflow - with scored output, actionable recommendations, and exportable **Markdown** and **PDF** reports.
+orchicyb helps individuals **baseline digital exposure** for domains they own or are authorized to assess. It combines HTTP security headers, TLS certificate health, DNS visibility, and email authentication (SPF / DMARC / DKIM) into a single workflow - with scored output, actionable recommendations, and exportable **Markdown** and **PDF** reports.
 
 > **Authorized use only.** orchicyb is built for defensive security, awareness, and compliance-style reviews - not for attacking third-party systems without permission.
 
@@ -28,8 +28,6 @@ orchicyb helps security-aware teams and individuals **baseline digital exposure*
 - [Example output](#example-output)
 - [Project structure](#project-structure)
 - [Ethics & legal use](#ethics--legal-use)
-- [Publishing & sharing](#publishing--sharing)
-- [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [Security](#security)
 - [License](#license)
@@ -38,7 +36,7 @@ orchicyb helps security-aware teams and individuals **baseline digital exposure*
 
 ## Why orchicyb
 
-Many small teams need a **lightweight, explainable** way to answer:
+Many individuals need a **lightweight, explainable** way to answer:
 
 - Are our security headers and HTTPS behavior reasonable?
 - Is our TLS certificate valid and expiring soon?
