@@ -316,54 +316,6 @@ Unauthorized scanning may violate computer misuse laws, contracts, and platform 
 
 ---
 
-## Publishing & sharing
-
-### GitHub repository settings (copy-paste)
-
-| Field | Recommended value |
-|-------|-------------------|
-| **Repository name** | `orchicyb` |
-| **Description** | Defensive CLI for authorized domain risk checks — HTTP headers, TLS, DNS, SPF/DMARC/DKIM, scored reports (MD/PDF). |
-| **Website** | *(optional)* link to docs, demo, or your LinkedIn post |
-| **Topics** | `cybersecurity` `osint` `dns` `tls` `spf` `dmarc` `security-headers` `cli` `python` `digital-risk` |
-
-**Short tagline (About / social):**
-
-> orchicyb — lightweight defensive domain assessment from your terminal.
-
-**One-liner for LinkedIn / bio (English):**
-
-> Open-source CLI that baselines domain security posture (headers, TLS, DNS, email auth) and exports stakeholder-ready PDF reports. MIT · authorized use only.
-
-This project is released under the **[MIT License](LICENSE)**. You may:
-
-- Publish the source on **GitHub** (public or private repo)
-- Link the repository from **LinkedIn**, your portfolio, or a blog
-- Fork, modify, and redistribute with license notice preserved
-
-When sharing publicly:
-
-1. Emphasize **defensive / authorized** use in your post description
-2. Avoid language that suggests unauthorized hacking
-3. Replace `YOUR_USERNAME` in clone URLs after creating the repo
-4. Do not commit secrets, `.env` files, or client reports containing sensitive data
-
-**Suggested LinkedIn angle (Polish):**
-
-> Opublikowałem/am orchicyb — lekkie narzędzie CLI do defensywnej oceny domen (nagłówki HTTP, TLS, DNS, SPF/DMARC/DKIM) z raportem PDF. Open source (MIT). Tylko na autoryzowanych zasobach.
-
----
-
-## Roadmap
-
-- [ ] JSON export for CI/CD pipelines
-- [ ] Config file for default output path and DKIM selectors
-- [ ] Optional WHOIS / subdomain hints (authorized targets only)
-- [ ] GitHub Actions workflow for scheduled self-scans
-- [ ] Localized report templates (PL / EN)
-
----
-
 ## Contributing
 
 Contributions are welcome via pull requests. Please:
