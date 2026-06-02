@@ -1,0 +1,24 @@
+[project]
+name = "orchicyb"
+version = "0.2.0"
+description = "Defensive digital risk & OSINT toolkit for authorized domain assessment"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1.7",
+    "requests>=2.31.0",
+    "dnspython>=2.6.1",
+    "rich>=13.7.0",
+    "fpdf2>=2.7.9",
+]
+
+[project.scripts]
+orchicyb = "orchicyb.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["orchicyb*"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
