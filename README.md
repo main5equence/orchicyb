@@ -1,14 +1,17 @@
 # orchicyb
 
-**Digital Risk & OSINT Toolkit** — defensive domain assessment from your terminal.
+**Digital Risk & OSINT Toolkit** - defensive domain assessment from your terminal.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![CLI](https://img.shields.io/badge/interface-terminal-green.svg)](#usage)
 
-orchicyb helps security-aware teams and individuals **baseline digital exposure** for domains they own or are authorized to assess. It combines HTTP security headers, TLS certificate health, DNS visibility, and email authentication (SPF / DMARC / DKIM) into a single workflow — with scored output, actionable recommendations, and exportable **Markdown** and **PDF** reports.
+orchicyb helps security-aware teams and individuals **baseline digital exposure** for domains they own or are authorized to assess. It combines HTTP security headers, TLS certificate health, DNS visibility, and email authentication (SPF / DMARC / DKIM) into a single workflow - with scored output, actionable recommendations, and exportable **Markdown** and **PDF** reports.
 
-> **Authorized use only.** orchicyb is built for defensive security, awareness, and compliance-style reviews — not for attacking third-party systems without permission.
+> **Authorized use only.** orchicyb is built for defensive security, awareness, and compliance-style reviews - not for attacking third-party systems without permission.
+
+<img width="1461" height="926" alt="Zrzut ekranu 2026-06-02 151517" src="https://github.com/user-attachments/assets/b66bc470-c33f-4c97-8393-255ad456c26a" />
+
 
 ---
 
@@ -44,10 +47,10 @@ Many small teams need a **lightweight, explainable** way to answer:
 
 orchicyb fills the gap between manual checklist reviews and heavy enterprise scanners. It is:
 
-- **Fast** — results in seconds from the CLI
-- **Readable** — Rich tables, color-coded scores, clear recommendations
-- **Shareable** — Markdown and PDF reports for stakeholders
-- **Transparent** — open-source logic you can inspect and extend
+- **Fast** - results in seconds from the CLI
+- **Readable** - Rich tables, color-coded scores, clear recommendations
+- **Shareable** - Markdown and PDF reports for stakeholders
+- **Transparent** - open-source logic you can inspect and extend
 
 ---
 
@@ -380,4 +383,4 @@ If you discover a **vulnerability in orchicyb itself** (not in scan targets), se
 
 ## License
 
-MIT License — Copyright (c) 2026 orchicyb. See [LICENSE](LICENSE).
+MIT License - Copyright (c) 2026 Dominika Jakubek. See [LICENSE](LICENSE).
