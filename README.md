@@ -270,7 +270,7 @@ Assessment: example.com
 │ DNS visibility       │  85/100 │
 │ Email authentication │  60/100 │
 │ Overall              │  80/100 │
-│ Risk level           │ Moderate │
+│ Risk level           │ Moderate│
 └──────────────────────┴─────────┘
 
 Recommendations
@@ -333,4 +333,4 @@ If you discover a **vulnerability in orchicyb itself** (not in scan targets), se
 
 ## License
 
-MIT License - Copyright (c) 2026 Dominika Jakubek. See [LICENSE](LICENSE).
+GPL-3.0 license - Copyright (c) 2026 Dominika Jakubek. See [LICENSE](LICENSE).
